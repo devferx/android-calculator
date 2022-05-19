@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="buttonNumber">
+        <item name="android:backgroundTint">#9381ff</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:onClick">numberAction</item>
+    </style>
+    <style name="buttonOperation">
+        <item name="android:backgroundTint">#ffafcc</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:onClick">operationAction</item>
+    </style>
+</resources>
